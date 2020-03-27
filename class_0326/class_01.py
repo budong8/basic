@@ -6,6 +6,7 @@ def bubble(mylist):
         for j in range(len(mylist) - 1):
             if mylist[j] > mylist[j + 1]:
                 mylist[j], mylist[j + 1] = mylist[j + 1], mylist[j]
+        print(f"第{i}次运行结果为{mylist}")
     return mylist
 
 
